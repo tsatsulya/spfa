@@ -5,18 +5,6 @@
 
 namespace alg_ds {
 
-// template<typename tag_t>
-// struct node {
-//     tag_t tag;
-//     node *parent, *child;
-//     node *left, *right;
-//     int degree = 0;
-//     bool mark = false;
-//     node(tag_t tag_) : tag(tag_) {}
-//     node(tag_t tag_, node *left_, node *right_) :
-//         tag(tag_), left(left_), right(right_) {}
-// };
-
 template<typename tag_t>
 class fibonacci_heap {
 public:
