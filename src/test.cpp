@@ -1,4 +1,5 @@
 #include "spfa/queue_linked_list.h"
+#include "spfa/fibonacci_heap.h"
 #include <iostream>
 
 int main() {
@@ -12,6 +13,8 @@ int main() {
     q.insert(9);
     q.remove();
     q.remove();
+
+    std::cout << q.is_empty() << q.is_full() << q.get_nodes_amount() << *(q.peek()) << std::endl;
 
     return 0;
 }
